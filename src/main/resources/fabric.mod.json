@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "calcium",
+  "version": "${version}",
+  "name": "Calcium",
+  "description": "The best ever optimization mod ever ever and ever fps++",
+  "authors": [
+    "Mayaqq"
+  ],
+  "contact": {
+    "repo": "https://github.com/mayaqqdev/Calcium"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/calcium/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.mayaqq.calcium.client.CalciumClient"
+    ],
+    "main": [
+      "dev.mayaqq.calcium.Calcium"
+    ]
+  },
+  "mixins": [
+    "calcium.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
