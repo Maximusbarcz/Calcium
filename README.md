@@ -3,7 +3,6 @@
 
 ![banner](https://camo.githubusercontent.com/4e20d62be4906f3c09dcb120e20370893dc2345ae87958edd377ab0b537e80f1/68747470733a2f2f692e696d6775722e636f6d2f506e31567465522e706e67)
 
-
 <a href="https://modrinth.com/mod/calcium/versions">
     <img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy-minimal/available/modrinth_vector.svg" width="100" height="100" alt="Modrinth">
 </a>
@@ -13,6 +12,9 @@
 <a href="https://discord.gg/hue">
     <img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy-minimal/social/discord-plural_vector.svg" width="100" height="100" alt="Discord">
 </a>
+
+# CALCIUM OPTIMIZATION MOD
+
 </center>
 
 ## `Information`
