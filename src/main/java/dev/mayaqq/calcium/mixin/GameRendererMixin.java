@@ -11,6 +11,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class GameRendererMixin {
     @Inject(method = "renderLevel", at = @At("HEAD"), cancellable = true)
     private void render(float f, long l, PoseStack poseStack, CallbackInfo ci) {
-        ci.cancel();
+        // VVVVV the source of the bug, i just commented out the code and now it works ok
+        // ci.cancel();
     }
 }
